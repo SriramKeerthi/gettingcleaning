@@ -3,9 +3,8 @@
 # ==== #
 require(plyr)
 
-#options(stringsAsFactors=TRUE)
 # Directory for the data
-dataHome <- "~/R/coursera/gettingcleaning/courseproject/accel/UCI HAR Dataset/"
+dataHome <- "/path/to/uci/har/dataset/"
 
 # Set working directory to the data directory
 setwd(dataHome)
