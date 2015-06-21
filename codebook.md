@@ -10,7 +10,7 @@ sdat <- read.table("sensorDataAvg.txt", header=T)
 There are 180 observations of 81 variables in the `sensorDataAvg.txt` file, divided into:
 - ActivityName: Name of the activity being performed, labeled as WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 - Subject: ID of the Subject who participated in the experiment
-- 79 sensor variables in Time and Frequency domains, with a postfix of `Mean` or `StandardDeviation` depending on the source variable, followed by `XYZ` if they are dimension based:
+- 79 sensor variables in `Time` and `Frequency` domains, with a postfix of `Mean` or `StandardDeviation` depending on the source variable, followed by `XYZ` if they are dimension based:
 <table>
   <tr>
     <th>Time Domain</th><th>Frequency Domain</th>
