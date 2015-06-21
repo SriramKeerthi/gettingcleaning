@@ -10,13 +10,91 @@ sdat <- read.table("sensorDataAvg.txt", header=T)
 There are 180 observations of 81 variables in the `sensorDataAvg.txt` file, divided into:
 - ActivityName: Name of the activity being performed, labeled as WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 - Subject: ID of the Subject who participated in the experiment
-- 79 sensor variables in Time and Frequency domains:
+- 79 sensor variables in Time and Frequency domains, with a postfix of `Mean` or `StandardDeviation` depending on the source variable, followed by `XYZ` if they are dimension based:
 <table>
   <tr>
-    <th>Category</th><th>Time Domain</th><th>Frequency Domain</th>
+    <th>Time Domain</th><th>Frequency Domain</th>
   </tr>
   <tr>
-    <td></td><td></td><td></td>
+    <td>Frequency.BodyAcceleration.Mean.XYZ</td><td>Time.BodyAcceleration.Mean.XYZ</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAcceleration.MeanFrequency.XYZ</td><td></td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAcceleration.StandardDeviation.XYZ</td><td>Time.BodyAcceleration.StandardDeviation.XYZ</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationJerk.Mean.XYZ</td><td>Time.BodyAccelerationJerk.Mean.XYZ</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationJerk.MeanFrequency.XYZ</td><td></td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationJerk.StandardDeviation.XYZ</td><td>Time.BodyAccelerationJerk.StandardDeviation.XYZ</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationJerkMagnitude.Mean</td><td>Time.BodyAccelerationJerkMagnitude.Mean</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationJerkMagnitude.MeanFreq</td><td></td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationJerkMagnitude.StandardDeviation</td><td>Time.BodyAccelerationJerkMagnitude.StandardDeviation</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationMagnitude.Mean</td><td>Time.BodyAccelerationMagnitude.Mean</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationMagnitude.MeanFreq</td><td></td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyAccelerationMagnitude.StandardDeviation</td><td>Time.BodyAccelerationMagnitude.StandardDeviation</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyro.Mean.XYZ</td><td>Time.BodyGyro.Mean.XYZ</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyro.MeanFrequency.XYZ</td><td></td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyro.StandardDeviation.XYZ</td><td>Time.BodyGyro.StandardDeviation.XYZ</td>
+  </tr>
+  <tr>
+    <td></td><td>Time.BodyGyroJerk.Mean.XYZ</td>
+  </tr>
+  <tr>
+    <td></td><td>Time.BodyGyroJerk.StandardDeviation.XYZ</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyroJerkMagnitude.Mean</td><td>Time.BodyGyroJerkMagnitude.Mean</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyroJerkMagnitude.MeanFreq</td><td></td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyroJerkMagnitude.StandardDeviation</td><td>Time.BodyGyroJerkMagnitude.StandardDeviation</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyroMagnitude.Mean</td><td>Time.BodyGyroMagnitude.Mean</td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyroMagnitude.MeanFreq</td><td></td>
+  </tr>
+  <tr>
+    <td>Frequency.BodyGyroMagnitude.StandardDeviation</td><td>Time.BodyGyroMagnitude.StandardDeviation</td>
+  </tr>
+  <tr>
+    <td></td><td>Time.GravityAcceleration.Mean.XYZ</td>
+  </tr>
+  <tr>
+    <td></td><td>Time.GravityAcceleration.StandardDeviation.XYZ</td>
+  </tr>
+  <tr>
+    <td></td><td>Time.GravityAccelerationMagnitude.Mean</td>
+  </tr>
+  <tr>
+    <td></td><td>Time.GravityAccelerationMagnitude.StandardDeviation</td>
   </tr>
 </table>
 
