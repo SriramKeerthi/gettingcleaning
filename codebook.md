@@ -66,3 +66,10 @@ This is done by grouping and averaging the data by `Subject` and `ActivityName`:
 ```
 sensorDataAvg = ddply(sensorDataSubsetJoined, c("Subject","ActivityName"), numcolwise(mean))
 ```
+
+### Export data
+The data is written by calling the `write.table` function on the tidy data:
+```
+write.table(sensorDataAvg, file = "sensorDataAvg.txt", row.names=FALSE)
+```
+
