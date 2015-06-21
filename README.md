@@ -38,4 +38,4 @@ RScript run_analysis.R
 The output tidy data is written to `sensorDataAvg.txt`, which has been described in the [Codebook file](https://github.com/SriramKeerthi/gettingcleaning/blob/master/codebook.md "Codebook").
 
 ## Help
-If you face any issues running this code, please contact me at <sriram@raremile.com>
+If you face any issues running this code, please contact me at <sriram@raremile.com>.
