@@ -12,9 +12,9 @@ There are 180 observations of 81 variables in the `sensorDataAvg.txt` file, divi
 - Subject: ID of the Subject who participated in the experiment
 - 79 sensor variables in Time and Frequency domains:
 <table>
-  <th>
-    <td>Category</td><td>Time Domain</td><td>Frequency Domain</td>
-  </th>
+  <tr>
+    <th>Category</th><th>Time Domain</th><th>Frequency Domain</th>
+  </tr>
   <tr>
     <td></td><td></td><td></td>
   </tr>
